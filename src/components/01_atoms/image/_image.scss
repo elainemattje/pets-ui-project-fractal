@@ -1,0 +1,33 @@
+.img {
+    display: inline-block;
+    width: 100%;
+    background-size: cover;
+
+
+    &--people{    
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        margin: auto;
+        padding: 2.5px;
+        border: solid rgb(129, 183, 228) 2px;
+    }
+
+    &--pet{
+        border-radius: 6px;
+        width: 200px;
+        height: 300px;
+        margin: auto;
+        padding-bottom: 0;
+
+        &--small{
+            width: 100px;
+            height: 100px;
+            border-top-left-radius: 6px;
+            border-top-left-radius: 6px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+
+        }
+    }
+}

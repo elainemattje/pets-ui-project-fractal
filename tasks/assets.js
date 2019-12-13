@@ -8,8 +8,8 @@ function assets() {
     // (If you want to use scss files, simply look for *.scss files instead)
     return (
         gulp
-            .src(["src/**/*.png","src/**/*.jpg", "src/**/*.svg"])
- 
+            .src(["src/**/*.png", "src/**/*.jpg", "src/**/*.svg", "src/**/*.jpeg"])
+
             // Use sass with the files found, and log any errors
             .pipe(rename({
                 dirname: ''
@@ -18,7 +18,7 @@ function assets() {
             .pipe(gulp.dest("public/assets"))
     );
 }
- 
+
 // Expose the task by exporting it
 // This allows you to run it from the commandline using
 // $ gulp style

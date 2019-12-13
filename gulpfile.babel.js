@@ -4,7 +4,7 @@ import { assets } from './tasks/assets';
 
 import { exec } from 'child_process';
 
-function fractal () {
+function fractal() {
     console.log('http://localhost:3000/');
     exec('fractal start --sync', function (err, stdout, stderr) {
         console.log(stdout);
@@ -12,15 +12,15 @@ function fractal () {
     });
 }
 
-function watchSass () {
+function watchSass() {
     gulp.watch('src/**/*.scss', style);
 }
 
-function watchAssets () {
-    gulp.watch('src/**/*.png', assets);
+function watchAssets() {
+    gulp.watch(['src/**/*.png', 'src/**/*.jpg', 'src/**/*.svg', 'src/**/*.jpeg'], assets);
 }
 
-function develop () {
+function develop() {
     fractal();
     watchSass();
     watchAssets();

@@ -1,0 +1,48 @@
+{
+    "context": {
+        "imagePeople1": "/assets/people1.jpeg",
+        "imagePeople2": "/assets/people2.jpeg",
+        "imagePeople3": "/assets/people3.jpeg",
+        "imagePeople4": "/assets/people4.jpeg",
+        "imagePeople5": "/assets/people5.jpeg",
+        "imagePet2": "/assets/pexels-photo2.jpeg",
+        "imagePet3": "/assets/pexels-photo3.jpeg",
+        "imagePet6": "/assets/pexels-photo6.jpeg",
+        "imagePet7": "/assets/pexels-photo7.jpeg",
+        "imagePet8": "/assets/pexels-photo8.jpeg",
+        "imagePet9": "/assets/pexels-photo9.jpeg",
+        "imagePet11": "/assets/pexels-photo11.jpeg",
+        "imagePet12": "/assets/pexels-photo12.jpeg",
+        "imagePet13": "/assets/pexels-photo13.jpeg",
+        "imagePet14": "/assets/pexels-photo14.jpeg",
+        "imagePet15": "/assets/pexels-photo15.jpeg",
+        "imageAltPet": "Imagem do pet",
+        "imageAlt": "Imagem do usuário"
+    },
+    "variants": [
+        {
+            "name": "people",
+            "context": {
+                "modifier": "people",
+                "src": "/assets/people1.jpeg",
+                "alt": "Sample image"
+            }
+        },
+        {
+            "name": "Pet",
+            "context": {
+                "modifier": "pet",
+                "src": "/assets/pexels-photo15.jpeg",
+                "alt": "Sample image"
+            }
+        },
+        {
+            "name": "Pet Small",
+            "context": {
+                "modifier": "pet--small",
+                "src": "/assets/pexels-photo15.jpeg",
+                "alt": "Sample image"
+            }
+        }
+    ]
+}

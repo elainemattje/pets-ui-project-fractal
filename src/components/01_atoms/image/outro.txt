@@ -1,0 +1,24 @@
+
+<img class="img people" src="{{ imagePeople5 }}" alt="{{ imageAlt }}">
+<br><br>
+<img class="img pet" src="{{ imagePet2 }}" alt="{{ imageAltPet }}">
+<br><br>
+<img class="img pet" src="{{ imagePet3 }}" alt="{{ imageAltPet }}">
+<br><br>
+<img class="img pet" src="{{ imagePet6 }}" alt="{{ imageAltPet }}">
+<br><br>
+<img class="img pet pet--small" src="{{ imagePet7 }}" alt="{{ imageAltPet }}">
+<br><br>
+<img class="img pet pet--small" src="{{ imagePet8 }}" alt="{{ imageAltPet }}">
+<br><br>
+<img class="img pet pet--small" src="{{ imagePet9 }}" alt="{{ imageAltPet }}">
+<br><br>
+<img class="img pet pet--small" src="{{ imagePet11 }}" alt="{{ imageAltPet }}">
+<br><br>
+<img class="img pet pet--small" src="{{ imagePet12 }}" alt="{{ imageAltPet }}">
+<br><br>
+<img class="img pet" src="{{ imagePet13 }}" alt="{{ imageAltPet }}">
+<br><br>
+<img class="img pet" src="{{ imagePet14 }}" alt="{{ imageAltPet }}">
+<br><br>
+<img class="img pet" src="{{ imagePet15 }}" alt="{{ imageAltPet }}">
