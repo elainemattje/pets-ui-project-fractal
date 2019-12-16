@@ -29,7 +29,7 @@
             }
         },
         {
-            "name": "Pet",
+            "name": "pet",
             "context": {
                 "modifier": "pet",
                 "src": "/assets/pexels-photo15.jpeg",
@@ -37,10 +37,10 @@
             }
         },
         {
-            "name": "Pet Small",
+            "name": "pet--small",
             "context": {
                 "modifier": "pet--small",
-                "src": "/assets/pexels-photo15.jpeg",
+                "src": "/assets/pexels-photo14.jpeg",
                 "alt": "Sample image"
             }
         }

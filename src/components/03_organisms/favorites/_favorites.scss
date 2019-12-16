@@ -1,0 +1,16 @@
+.favorites{
+    width: 10%;
+    height: 80px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    // display: inline-block;
+    display: grid;
+}
+
+// .favorites{
+//     display: grid;
+//     display: inline-block;
+//     padding: 20px;
+// }

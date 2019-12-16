@@ -1,0 +1,13 @@
+.favorites-name{
+    width: 10%;
+    height: 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 18px;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
