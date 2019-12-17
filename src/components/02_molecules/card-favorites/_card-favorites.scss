@@ -1,0 +1,25 @@
+.card-favorites{
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    &.image-card-favorites{
+        width: 80%;
+        height: 80%;
+        position: absolute;
+        top: 0px;
+        
+    }
+
+    &.name-favorites{
+        position: absolute;
+        bottom: 0px;
+        padding: 20px 30px;
+        background-color: red;
+    }
+}
