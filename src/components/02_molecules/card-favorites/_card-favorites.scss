@@ -1,25 +1,32 @@
 .card-favorites{
     border-radius: 10px;
-    width: 300px;
-    height: auto;
+    width: 12%;
+    height: 10%;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
+    display: grid;
+    overflow: auto;
     position: relative;
-    display: flex;
-    flex-direction: column;
+    
+    &::after{
+        content: "";
+        display: block;
+        // padding-bottom: 100%;
+    }
+    
+    &__image{
+        max-height: 80%;
+        object-fit: center;
 
-    &.image-card-favorites{
-        width: 80%;
-        height: 80%;
-        position: absolute;
-        top: 0px;
-        
     }
 
-    &.name-favorites{
-        position: absolute;
-        bottom: 0px;
-        padding: 20px 30px;
-        background-color: red;
+    &.img{
+        height: 20px;
+        width: 20px;
+    }
+    
+    &__name{
+        width: 100%;
+        height: auto;
     }
 }

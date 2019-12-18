@@ -17,7 +17,8 @@
         "imagePet14": "/assets/pexels-photo14.jpeg",
         "imagePet15": "/assets/pexels-photo15.jpeg",
         "imageAltPet": "Imagem do pet",
-        "imageAlt": "Imagem do usuário"
+        "imageAlt": "Imagem do usuário",
+        "src": "/assets/pexels-photo11.jpeg"
     },
     "variants": [
         {
@@ -40,7 +41,7 @@
             "name": "pet--small",
             "context": {
                 "modifier": "pet--small",
-                "src": "/assets/pexels-photo14.jpeg",
+                "src": "/assets/pexels-photo11.jpeg",
                 "alt": "Sample image"
             }
         }
