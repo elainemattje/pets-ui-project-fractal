@@ -10,7 +10,7 @@ function style() {
     return (
         gulp
             .src("src/**/*.scss")
- 
+
             // Use sass with the files found, and log any errors
             .pipe(sass())
             .on("error", sass.logError)
@@ -21,8 +21,9 @@ function style() {
             .pipe(gulp.dest("public"))
     );
 }
- 
+
 // Expose the task by exporting it
 // This allows you to run it from the commandline using
 // $ gulp style
 exports.style = style;
+

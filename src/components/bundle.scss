@@ -4,3 +4,7 @@
 @import '03_organisms/module';
 @import '04_templates/module';
 @import '05_pages/module';
+
+* {
+    box-sizing: border-box;
+}

@@ -1,0 +1,25 @@
+.card-big{
+    background-image: url(/assets/pexels-photo9.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+    width: 25%;
+    height: 400px;
+    box-sizing: border-box;
+    display: grid;
+    overflow: hidden;
+    position: relative;
+        
+    &__image{
+        width: 100%;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    &__name{
+        width: 100%;
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+}
+
