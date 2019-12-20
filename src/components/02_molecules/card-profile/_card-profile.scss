@@ -3,14 +3,13 @@
     margin: 15px 15px;
     height: auto;
     border-radius: 20px;
-    // border: 1px blue solid;
     box-sizing: border-box;
-    background-color: rgb(243, 242, 201);
+    background-color: $color-white;
 
-    &.informs{ 
+    &--informs{ 
         display: flex;
         justify-content: flex-start;
-        padding: 10px;
-        margin: 10px;
+        padding: 0 0 30px 0;
+        margin: 0px;
     }
 }

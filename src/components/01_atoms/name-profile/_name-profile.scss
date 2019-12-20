@@ -1,12 +1,14 @@
 .name-profile{
     width: 40%;
     height: 10%;
-    padding: 10px 0px;
-    margin: 0 10px;
+    padding: 10px 0px 30px 0px;
     font-size: 35px;
     font-weight: bold;
     display: inline-block;
-    
+
+    &.informs{
+        padding: 0 0 30px 0;
+    }
 }
 
 

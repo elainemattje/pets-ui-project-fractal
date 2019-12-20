@@ -1,8 +1,7 @@
 .text{
-    font-family: Arial, Helvetica, sans-serif;
-    color: gray;
+    color: $color-gray;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 24px;
     font-weight: normal;
     font-stretch: normal;
@@ -11,29 +10,50 @@
     text-align: left;
     font-family: 'Lato', sans-serif;
     
-    &.title{
+    &__h1{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 46px;
+        color: $color-black;
+    }
+
+    &__h2{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 30px;
+        color: $color-black;
+    }
+
+    &__h3{
+        font-size: 18px;
+        color: $color-black;
+        font-weight: bold;
+    }
+
+    &__h4{
+        font-size: 16px;
+        font-weight: bold;
+        color: $color-black;
+    }
+
+    &__h5{
+        font-size: 16px;
+    }
+
+    &--title{
         font-size:20px;
         font-weight: bold;
     }
 
-    &.race{
-        font-size: 18px;
-        color: white;
+    &--white{
+        color: $color-white;
     }
+    
+    
 
-    &.profile{
-        font-size: 12px;
-
-        &.bold{
-            font-size: 16px;
-            font-weight: bold;
-            color: black;
-        }
-
-        &.informs{
-            font-size: 14px;
-            font-weight: normal;
-        }
-    }
-
+      
+    
+   
 }
