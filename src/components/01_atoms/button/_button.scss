@@ -14,4 +14,20 @@
     &--large{
         width: 100%;
     }
+
+    &--none{
+        width: 45%;
+        border: 1px solid $color-gray;
+        background-color: transparent;
+        box-shadow: 0px 0px 0px $color-shadow;
+        color: $color-black;
+    }
+
+    &--save{
+        width: 45%;
+        border: 1px solid $color-blue;
+        background-color: $color-blue;
+        box-shadow: 0px 0px 0px $color-shadow;
+        color: $color-white;
+    }
 }

@@ -1,0 +1,45 @@
+.slider-fav-pets,  .slider-fav-pets--mini{
+    background-color: $color-white;
+    min-width: 100%;
+    min-height: 200px;
+    overflow-x: auto;
+    
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    &__content{
+        white-space: nowrap; 
+        width: auto;
+        
+    }
+
+    & .card-big{
+        display: inline-block;
+        min-width: 75%;
+        margin: 10px 0 10px 10px;
+
+        @media screen and(min-width: 768px){
+            min-width: 45%;
+        }
+
+        @media screen and(min-width: 1024px){
+            min-width: 30%;
+        }
+    }
+
+    & .card-favorites{
+        display: inline-block;
+        min-width: 35%;
+        margin: 10px 0 10px 10px;
+
+        @media screen and(min-width: 768px){
+            min-width: 25%;
+        }
+
+        @media screen and(min-width: 1024px){
+            min-width: 15%;
+        }
+    }
+}

@@ -1,5 +1,8 @@
 {
     "context": {
-        "normal": "Apply for adoption"
+        "normal": "Apply for adoption",
+        "close": "Close",
+        "save": "Save Task",
+        "edit": "Edit Task List"
     }
 }

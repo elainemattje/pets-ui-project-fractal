@@ -41,8 +41,16 @@
             "name": "pet--small",
             "context": {
                 "modifier": "pet--small",
-                "src": "/assets/pexels-photo11.jpeg",
-                "alt": "Sample image"
+                "list": [
+                    {
+                        "src": "/assets/pexels-photo11.jpeg",
+                        "alt": "Sample image"
+                    },
+                    {
+                        "src": "/assets/pexels-photo15.jpeg",
+                        "alt": "Sample image"
+                    }
+                ]
             }
         }
     ]

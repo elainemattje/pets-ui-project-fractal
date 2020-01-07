@@ -1,13 +1,15 @@
-<div>
-    <div class="photo-profile">
+<div class="tela-profile">
+    <div class="tela-profile photo-profile">
         {{ render '@image--square'}}
     </div>
 
-    <div class="informs-profile">
+    <div class="tela-profile informs-profile">
         {{ render '@card-profile'}}
+
+
+        <div class="tela-profile informs-profile like-profile">
+            {{ render '@like'}}
+        </div>
     </div>
 
-    <div class="like-profile">
-        {{ render '@like'}}
-    </div>
 </div>

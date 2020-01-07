@@ -47,17 +47,23 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.text--bold {
-  font-weight: 500; }
-
-.text--white {
-  color: #fdfdfd; }
-
-.text--underline:hover {
-  text-decoration: underline; }
-
-.text--pointer {
-  cursor: pointer; }
+.text {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  line-height: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left; }
+  .text--bold {
+    font-weight: 500; }
+  .text--white {
+    color: #fdfdfd; }
+  .text--underline:hover {
+    text-decoration: underline; }
+  .text--pointer {
+    cursor: pointer; }
 
 .text__h1 {
   font-size: 24px; }
@@ -142,7 +148,7 @@ table {
 .btn {
   border: 1px solid #6fdcf0;
   background-color: #6fdcf0;
-  box-shadow: 5px 5px 10px #c6d3d3;
+  box-shadow: 5px 5px 10px #ecf5f5;
   color: #fdfdfd;
   padding: 15px 50px;
   margin: 30px 0 30px 0;
@@ -153,6 +159,18 @@ table {
   box-sizing: border-box; }
   .btn--large {
     width: 100%; }
+  .btn--none {
+    width: 45%;
+    border: 1px solid gray;
+    background-color: transparent;
+    box-shadow: 0px 0px 0px #ecf5f5;
+    color: #1e1e1e; }
+  .btn--save {
+    width: 45%;
+    border: 1px solid #6fdcf0;
+    background-color: #6fdcf0;
+    box-shadow: 0px 0px 0px #ecf5f5;
+    color: #fdfdfd; }
 
 .btn-like {
   width: 35px;
@@ -160,7 +178,7 @@ table {
   background-color: #fdfdfd;
   border-radius: 50%;
   position: relative;
-  box-shadow: 5px 5px 10px #c6d3d3; }
+  box-shadow: 5px 5px 10px #ecf5f5; }
   .btn-like__heart {
     position: absolute;
     top: 11px;
@@ -197,7 +215,7 @@ table {
   border-radius: 10px;
   width: 12%;
   height: 10%;
-  box-shadow: 5px 5px 10px #c6d3d3;
+  box-shadow: 5px 5px 10px #ecf5f5;
   box-sizing: border-box;
   display: grid;
   overflow: auto;
@@ -219,7 +237,8 @@ table {
   background-image: url(/assets/pexels-photo9.jpeg);
   background-size: cover;
   border-radius: 10px;
-  width: 25%;
+  width: 100%;
+  max-width: 200px;
   height: 400px;
   box-sizing: border-box;
   display: grid;
@@ -237,7 +256,7 @@ table {
     left: 20px; }
 
 .card-profile {
-  padding: 10px;
+  padding: 30px;
   height: auto;
   border-radius: 20px;
   box-sizing: border-box;
@@ -250,38 +269,50 @@ table {
     margin: 0px; }
 
 .tela-profile {
-  position: relative;
   width: 100%;
   max-width: 767px;
   height: auto; }
+  .tela-profile.photo-profile {
+    position: relative;
+    top: 0; }
+  .tela-profile.informs-profile {
+    position: relative;
+    top: -15px; }
+    .tela-profile.informs-profile.like-profile {
+      position: absolute;
+      top: -15px;
+      left: 85%; }
 
-.photo-profile {
-  position: absolute;
-  top: 0%; }
-
-.like-profile {
-  position: absolute;
-  top: 90%;
-  right: 30px; }
-
-.informs-profile {
-  position: absolute;
-  top: 100%; }
-
-.photo-profile {
-  position: relative;
-  width: 100%;
-  max-width: 767px;
-  height: auto; }
-
-.informs-profile {
-  position: absolute;
-  top: 70%; }
-
-.like-profile {
-  position: absolute;
-  bottom: 30px;
-  right: 30px; }
+.slider-fav-pets, .slider-fav-pets--mini {
+  background-color: #fdfdfd;
+  min-width: 100%;
+  min-height: 200px;
+  overflow-x: auto; }
+  .slider-fav-pets::-webkit-scrollbar, .slider-fav-pets--mini::-webkit-scrollbar {
+    display: none; }
+  .slider-fav-pets__content, .slider-fav-pets--mini__content {
+    white-space: nowrap;
+    width: auto; }
+  .slider-fav-pets .card-big, .slider-fav-pets--mini .card-big {
+    display: inline-block;
+    min-width: 75%;
+    margin: 10px 0 10px 10px; }
+    @media screen and (min-width: 768px) {
+      .slider-fav-pets .card-big, .slider-fav-pets--mini .card-big {
+        min-width: 45%; } }
+    @media screen and (min-width: 1024px) {
+      .slider-fav-pets .card-big, .slider-fav-pets--mini .card-big {
+        min-width: 30%; } }
+  .slider-fav-pets .card-favorites, .slider-fav-pets--mini .card-favorites {
+    display: inline-block;
+    min-width: 35%;
+    margin: 10px 0 10px 10px; }
+    @media screen and (min-width: 768px) {
+      .slider-fav-pets .card-favorites, .slider-fav-pets--mini .card-favorites {
+        min-width: 25%; } }
+    @media screen and (min-width: 1024px) {
+      .slider-fav-pets .card-favorites, .slider-fav-pets--mini .card-favorites {
+        min-width: 15%; } }
 
 * {
   box-sizing: border-box; }

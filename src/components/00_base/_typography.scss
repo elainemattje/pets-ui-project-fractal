@@ -4,7 +4,14 @@
 
 
 .text{
-    //font-family;;;;;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    line-height: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
 
     &--bold{
         font-weight: 500;

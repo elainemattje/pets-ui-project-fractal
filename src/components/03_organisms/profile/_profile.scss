@@ -1,17 +1,21 @@
-.photo-profile{
-    position: relative;
+.tela-profile{
     width: 100%;
     max-width: 767px;
-    height: auto;   
-}
+    height: auto; 
 
-.informs-profile{
-    position: absolute;
-    top: 70%;    
-}
+    &.photo-profile{
+    position: relative;
+    top: 0;     
+    }
 
-.like-profile{
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
+    &.informs-profile{
+    position: relative;
+    top: -15px;  
+    
+        &.like-profile{
+        position: absolute;
+        top: -15px;
+        left: 85%;
+        }
+    }
 }
